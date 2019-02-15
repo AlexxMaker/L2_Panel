@@ -9,18 +9,26 @@
   }
 
 .App {
-  text-align: center;
+ 
 }
 
-.App h1 {
-  font-family: "Lineage 2 Font", sans-serif;
-  font-size: 78px;
-  font-weight: 500;
+.main{
+  margin: auto;
+  width: 760px;
+  height: 430px;
+  margin-top: 60px;
+  border-radius: 3%;
+  background-size: 100%;
+  background-image: url("./img/main-bg.jpg");
+
+  -webkit-box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
 }
 
-.App p {
-  font-family: "Lineage 2 Font", sans-serif;
-  margin-top: -60px;
+.content_wrapper {
+  margin-top: 60px;
+  color: aliceblue;
 }
 
 

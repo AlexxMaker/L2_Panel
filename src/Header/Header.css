@@ -1,0 +1,25 @@
+.logo {
+    float: right;
+    margin-right: 20px;
+    margin-top: -120px;
+    color: aliceblue;
+    font-family: "Lineage 2 Font", sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo:hover {
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+.logo h1 {
+    font-size: 78px;
+    font-weight: 500;
+}
+
+.logo p {
+    font-size: 20px;
+    margin-top: -65px;
+}

@@ -1,0 +1,10 @@
+.content {
+    margin-left: 350px;
+}
+
+.content_button {
+    padding: 10px;
+    border: 1px solid #5B5148;
+    font-size: 25px;
+    width: 200px;
+}
