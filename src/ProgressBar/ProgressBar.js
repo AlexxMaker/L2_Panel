@@ -19,11 +19,18 @@ const ProgressBar = () => {
             </div>
 
             <div className="progress_buttons">
-            
+                <div className="progress_button">
+                    CHECK
+                </div>
+
+                <div className="progress_button">
+                    CANCEL
+                </div>
             </div>
 
             <div className="progress_play">
-            
+                <img></img>
+                PLAY
             </div>
         </div>
     );
