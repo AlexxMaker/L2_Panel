@@ -1,1 +1,0 @@
-This will be a test project with a copy of L2 Client launch tab.
