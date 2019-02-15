@@ -1,10 +1,27 @@
 .content {
-    margin-left: 350px;
+    margin-left: 485px;
 }
 
 .content_button {
-    padding: 10px;
+    text-align: center;
     border: 1px solid #5B5148;
-    font-size: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
     width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
 }
+
+.content_button p {
+    margin: 0;
+}
+
+.content_button:hover {
+    font-weight: 600;
+    border: 1px solid rgb(61, 56, 51);
+    cursor: pointer;
+}
+

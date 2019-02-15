@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header/Header.js'
 import Language from './Language/Language.js'
 import Content from './Content/Content.js'
+import ProgressBar from './ProgressBar/ProgressBar.js'
 
 class App extends Component {
   render() {
@@ -16,6 +17,10 @@ class App extends Component {
 
           <div className="content_wrapper">
             <Content />
+          </div>
+
+          <div className="progress_wrapper">
+            <ProgressBar />
           </div>
         </div>
 

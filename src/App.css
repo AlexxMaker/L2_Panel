@@ -12,7 +12,7 @@
  
 }
 
-.main{
+.main {
   margin: auto;
   width: 760px;
   height: 430px;
@@ -29,6 +29,10 @@
 .content_wrapper {
   margin-top: 60px;
   color: aliceblue;
+}
+
+.progress_wrapper {
+  margin-top: 50px; /*исправь, сука тупая!!!*/
 }
 
 

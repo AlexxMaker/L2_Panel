@@ -1,0 +1,53 @@
+.progress_bar {
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    height: 100px;
+    font-size: 15px;
+}
+
+.progress_signs {
+    display: inline-block;
+    width: 20%;
+    background-color: red;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.progress_signs p {
+    
+}
+
+.progress_lines {
+    display: inline-block;
+    width: 50%;
+    background-color: blue;
+    height: 100px;
+}
+
+.progress_line {
+    display: block;
+    width: 90%;
+    height: 20px;
+    background-color: orange;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.progress_buttons {
+    display: inline-block;
+    width: 18%;
+    background-color: green;
+    height: 100px;
+}
+
+.progress_play {
+    display: inline-block;
+    width: 12%;
+    background-color: yellow;
+    height: 100px;
+
+}
