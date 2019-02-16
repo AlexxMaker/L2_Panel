@@ -21,9 +21,9 @@
   background-size: 100%;
   background-image: url("./img/main-bg.jpg");
 
-  -webkit-box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
-  box-shadow: inset 0px 0px 82px 31px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 0px 0px 300px 76px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 300px 76px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 300px 76px rgba(0,0,0,0.75);
 }
 
 .content_wrapper {

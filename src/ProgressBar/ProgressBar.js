@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './ProgressBar.css';
+import shield from "./img/shield.svg"
 
 const ProgressBar = () => {
     return (
         <div className="progress_bar">
             <div className="progress_signs">
-               <h3>1111</h3>
+               <h3>DWM FILE</h3>
+               <h3>PROGRESS</h3>
             </div>
 
             <div className="progress_lines">
@@ -20,7 +22,7 @@ const ProgressBar = () => {
 
             <div className="progress_buttons">
                 <div className="progress_button">
-                    Я залупа
+                    CHECK
                 </div>
 
                 <div className="progress_button">
@@ -29,8 +31,8 @@ const ProgressBar = () => {
             </div>
 
             <div className="progress_play">
-                <img></img>
-                PLAY
+                <img src={shield}></img>
+                <h1>PLAY</h1>
             </div>
         </div>
     );
