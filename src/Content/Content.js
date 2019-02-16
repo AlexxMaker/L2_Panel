@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import './Content.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSyncAlt } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faSyncAlt)
 
 const Content = () => (
     <div className="content">
@@ -8,7 +13,7 @@ const Content = () => (
         </div>
 
         <div className="content_button">
-            <p>FULL CHECK</p>
+            <p><FontAwesomeIcon icon="sync-alt" className="sync_icon"/> <spacer width="15" type="block"> </spacer>FULL CHECK</p>
         </div>
     </div>
 );
