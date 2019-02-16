@@ -20,7 +20,7 @@ const ProgressBar = () => {
 
             <div className="progress_buttons">
                 <div className="progress_button">
-                    CHECK
+                    Я залупа
                 </div>
 
                 <div className="progress_button">

@@ -12,6 +12,7 @@
     height: 100px;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .progress_signs p {
@@ -50,6 +51,7 @@
     margin-top: 20px;
     background-color: silver;
     border-radius: 5px;
+    text-align: center;
 }
 
 .progress_play {
