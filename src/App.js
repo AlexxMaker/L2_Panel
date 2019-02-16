@@ -4,6 +4,7 @@ import Header from './Header/Header.js'
 import Language from './Language/Language.js'
 import Content from './Content/Content.js'
 import ProgressBar from './ProgressBar/ProgressBar.js'
+import Footer from './Footer/Footer.js'
 
 class App extends Component {
   render() {
@@ -21,6 +22,10 @@ class App extends Component {
 
           <div className="progress_wrapper">
             <ProgressBar />
+          </div>
+
+          <div className="footer_wrapper">
+            <Footer />
           </div>
         </div>
 

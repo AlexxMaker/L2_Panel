@@ -1,0 +1,20 @@
+.foot {
+    text-align: center;
+}
+.foot img {
+    margin-top: 5px;
+    width: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.foot img:hover {
+    cursor: pointer;
+}
+
+.foot p {
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 0;
+    color: aliceblue;
+}
