@@ -8,10 +8,12 @@ library.add(faSyncAlt, faDungeon)
 
 const Content = () => (
     <div className="content">
-        <div className="content_button">
-            <FontAwesomeIcon icon="dungeon" className="home_icon"/>
-            <p>GO TO SITE</p>
-        </div>
+        <a href="https://lineage2.com/" target="blank">
+            <div className="content_button">
+                <FontAwesomeIcon icon="dungeon" className="home_icon"/>
+                <p>GO TO SITE</p>
+            </div>
+        </a>
 
         <div className="content_button">
             <FontAwesomeIcon icon="sync-alt" className="sync_icon"/>
