@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ProgressBar.css';
 import shield from "./img/shield.svg"
 
@@ -31,7 +31,7 @@ const ProgressBar = () => {
             </div>
 
             <div className="progress_play">
-                <img src={shield}></img>
+                <img src={shield} alt="#"></img>
                 <h1>PLAY</h1>
             </div>
         </div>

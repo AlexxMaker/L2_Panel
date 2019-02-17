@@ -9,13 +9,13 @@ class Language extends Component {
         return (
             <div className="langbar">
                 <div className="lang_pill">
-                    <img src={flag_us}></img>
+                    <img src={flag_us} alt="EN"></img>
                     <p>ENG</p>
                 </div>
 
                 <div className="lang_pill">
                     <div>
-                        <img src={flag_rus}></img>
+                        <img src={flag_rus} alt="RU"></img>
                         <p>RUS</p>
                     </div>
                 </div>
