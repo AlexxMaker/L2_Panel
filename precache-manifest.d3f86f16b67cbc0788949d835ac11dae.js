@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/L2_Panel/static/media/NCsoft.a5925c8c.png"
   },
   {
-    "revision": "cd22e97bac34f030f5d9",
+    "revision": "00b223bfc6c737b7bf72",
     "url": "/L2_Panel/static/css/main.5bff450f.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/L2_Panel/static/media/shield.de8d1976.svg"
   },
   {
-    "revision": "cd22e97bac34f030f5d9",
-    "url": "/L2_Panel/static/js/main.cd22e97b.chunk.js"
+    "revision": "00b223bfc6c737b7bf72",
+    "url": "/L2_Panel/static/js/main.00b223bf.chunk.js"
   },
   {
     "revision": "4a8523f793cda8d51da95fe7f7805afd",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/L2_Panel/static/media/main-bg.22300542.jpg"
   },
   {
-    "revision": "7e564843ac8899586ed67e21fcd76fe2",
+    "revision": "4af2ed09bfab9ccafbe59826aeab3669",
     "url": "/L2_Panel/index.html"
   }
 ];
