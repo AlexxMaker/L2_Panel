@@ -19,6 +19,12 @@
     font-size: 12px;
 }
 
+.lang_pill:hover > img {
+    -webkit-animation:spin 0.5s linear;
+    -moz-animation:spin 0.5s linear;
+    animation:spin 0.5s linear;
+}
+
 .lang_pill:hover {
     background-color: rgba(75, 32, 42, 0.7);
     cursor: pointer;
@@ -29,12 +35,6 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
-}
-
-.lang_pill img:hover {
-    -webkit-animation:spin 0.5s linear;
-    -moz-animation:spin 0.5s linear;
-    animation:spin 0.5s linear;
 }
 
 .lang_pill p {

@@ -1,14 +1,21 @@
 .logo {
     float: right;
     margin-right: 20px;
-    margin-top: -120px;
+    margin-top: -70px;
     color: aliceblue;
     font-family: "Lineage 2 Font", sans-serif;
-    display: inline-block;
     text-align: center;
 }
 
-.logo:hover {
+.logo img {
+    height: 70px;
+}
+
+.logo img:hover {
+    height: 71px;
+}
+
+.logo p:hover {
     color: skyblue;
     cursor: pointer;
 }
@@ -21,5 +28,5 @@
 
 .logo p {
     font-size: 20px;
-    margin-top: -65px;
+    margin-top: -5px;
 }
